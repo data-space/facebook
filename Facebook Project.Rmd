@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 The goal of this report is to analyse facebook data using facebook API and R.The data on the facebook can be analysed with R or Python but this report focuses on R. The way this goes is by connecting your R to facebook API. After a succesfull connection is made we can extract data from public pages,posts, froups or public profiles. Although facebook has put alot of restrictions on their latest update of  API's due to privacy issues still this is possible.
 
 So there are basically two ways to connect to the API,Via an app or via a temporary token.
-Using the app has an advantage that this is valid for atleast two months, but the process of creating an app and then connecting it to your R console is more complicated than compared to a temporary token.Also you won´t get all the data available via this method.
+Using the app has an advantage that this is valid for atleast two months, but the process of creating an app and then connecting it to your R console is more complicated than compared to a temporary token.Also you wonÂ´t get all the data available via this method.
 
 The connection via the temporary token is much more easier and will give you more data but the token is only valid for 2 hours. After 2 hours the token has to be refreshed and the new token has to be used. Also you have to be always logged in for doing this analysis. In further section we will look on how to connect R to facebook API via a temporary authentication token.
 
@@ -58,7 +58,7 @@ me$location
 
 ```
 
-Though there is a restriction of this function. it cannot be used to get data of private profiles. It can give data for only public profiles.
+Though there is a restriction of this function. It cannot be used to get data of private profiles and can give data for only public profiles.
 
 
 
