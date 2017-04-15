@@ -1,10 +1,8 @@
 
 ---
-title: 'Analysing Facebook data with R'
+Analysing Facebook data with R
 author: "Kanav Katyal"
 date: "March 25, 2016"
-output: 
-  html_document
 ---
 
 
